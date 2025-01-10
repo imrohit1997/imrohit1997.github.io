@@ -22,7 +22,7 @@
             text-align: center;
         }
         .container {
-            background-color: white;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
             padding: 50px;
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -37,18 +37,7 @@
             font-size: 20px;
             margin-bottom: 30px;
         }
-        .email-signup {
-            margin-top: 20px;
-        }
-        .email-signup input[type="email"] {
-            padding: 10px;
-            font-size: 16px;
-            width: 250px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            margin-right: 10px;
-        }
-        .email-signup button {
+        .connect-button {
             padding: 10px 20px;
             font-size: 16px;
             background-color: #ff5733;
@@ -56,8 +45,9 @@
             border-radius: 5px;
             color: white;
             cursor: pointer;
+            text-decoration: none; /* Remove underline for links */
         }
-        .email-signup button:hover {
+        .connect-button:hover {
             background-color: #ff3e1a;
         }
     </style>
@@ -67,9 +57,10 @@
         <h1>Coming Soon!</h1>
         <p>We are working hard to bring something amazing. Stay tuned!</p>
         <div class="email-signup">
-            <p>Subscribe to get notified when we launch:</p>
-            <button> <a href="https://www.linkedin.com/in/imrohit2611/"> Let's Connect </a> </button>
+            <p>Click the button below to connect with us:</p>
+            <a href="https://www.linkedin.com/in/imrohit2611/" class="connect-button">Let's Connect</a> <!-- Replace with the target URL -->
         </div>
     </div>
 </body>
 </html>
+

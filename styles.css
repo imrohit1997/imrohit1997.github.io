@@ -4,12 +4,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    color: #66a0e3;
+    color: #000000;
     line-height: 1.6;
 }
 
 a {
-    color: #6fae74;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ h2 {
     background: #66a0e3;
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .details-link {

@@ -54,9 +54,9 @@ ul {
 ul li {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
     /*border-bottom: 1px dashed #000000; *//* Optional separator line */
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.2rem;
 }
 
 ul li span.year {

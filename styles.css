@@ -46,6 +46,25 @@ h2 {
     margin-bottom: 1rem;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px dashed #000000; /* Optional separator line */
+    padding-bottom: 0.5rem;
+}
+
+ul li span.year {
+    color: #000000; /* Accent color for the year */
+    font-weight: bold;
+    margin-left: auto;
+}
+
 .work-item, .project-item {
     margin-bottom: 1.5rem;
     background: #66a0e3;

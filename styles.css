@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    color: #232b7e;
+    color: #66a0e3;
     line-height: 1.6;
 }
 
@@ -19,7 +19,7 @@ a:hover {
 
 header {
     text-align: center;
-    background: #1F1F1F;
+    background: #66a0e3;
     padding: 2rem 0;
     margin-bottom: 2rem;
 }
@@ -48,10 +48,10 @@ h2 {
 
 .work-item, .project-item {
     margin-bottom: 1.5rem;
-    background: #1F1F1F;
+    background: #66a0e3;
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .details-link {
@@ -62,5 +62,5 @@ h2 {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: #1F1F1F;
+    background: #66a0e3;
 }

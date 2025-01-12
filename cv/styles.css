@@ -19,7 +19,7 @@ a:hover {
 
 header {
     text-align: center;
-    background: #66a0e3;
+    background: #163e6c;
     padding: 2rem 0;
     margin-bottom: 2rem;
 }
@@ -40,8 +40,8 @@ section {
 }
 
 h2 {
-    color: #4CAF50;
-    border-bottom: 2px solid #4CAF50;
+    color: #163e6c;
+    border-bottom: 2px solid #163e6c;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
 }
@@ -67,19 +67,19 @@ ul li span.year {
 
 .work-item, .project-item {
     margin-bottom: 1.5rem;
-    background: #66a0e3;
+    background: #2778d6;
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .details-link {
-    color: #4CAF50;
+    color: #163e6c;
     font-weight: bold;
 }
 
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: #66a0e3;
+    background: #163e6c;
 }

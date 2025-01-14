@@ -22,6 +22,7 @@ header {
     background: #163e6c;
     padding: 2rem 0;
     margin-bottom: 2rem;
+    color: #ffffff;
 }
 
 header h1 {
@@ -67,7 +68,7 @@ ul li span.year {
 
 .work-item, .project-item {
     margin-bottom: 1.5rem;
-    background: #2778d6;
+    background: #12365f89;
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -81,5 +82,6 @@ ul li span.year {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: #163e6c;
+    background: #12365fe4;
+    color: #ffffff;
 }

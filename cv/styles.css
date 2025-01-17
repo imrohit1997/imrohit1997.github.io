@@ -42,7 +42,7 @@ section {
 }
 
 h2 {
-    color: #12365fe7;
+    color: #163e6c;
     border-bottom: 2px solid #163e6c;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
@@ -69,7 +69,7 @@ ul li span.year {
 
 .work-item, .project-item {
     margin-bottom: 1.5rem;
-    background: #12365fcf;
+    background: #163e6c;
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -83,6 +83,6 @@ ul li span.year {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: #12365fe4;
+    background: #163e6c;
     color: #ffffff;
 }

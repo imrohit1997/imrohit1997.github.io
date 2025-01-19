@@ -77,6 +77,10 @@ ul li span.year {
     color: #000000;
 }
 
+.work-item *, .project-item * {
+    opacity: 1; /* Ensure no opacity on text */
+}
+
 .details-link {
     color: #000000;
     font-weight: bold;

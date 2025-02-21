@@ -10,6 +10,8 @@
             font-family: 'Arial', sans-serif;
             background: linear-gradient(135deg, #ffafbd, #ffc3a0);
             background-image: url('pictures/background.jpg');
+            background-size: cover;
+            background-position: center;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -25,13 +27,13 @@
 
         h1 {
             font-size: 3rem;
-            margin: 0;
+            margin: 20px 0 0 0;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
         }
 
         p {
             font-size: 1.5rem;
-            margin: 1rem 0;
+            margin: 20px 0 1rem 0;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
         }
 
@@ -98,6 +100,7 @@
 </head>
 <body>
     <div class="container">
+        
         <h1>Happy Birthday!</h1>
         <p>Wishing you all the joy, happiness, and success on your special day!</p>
         <button class="button" onclick="generateMessage()">Click for a Surprise</button>

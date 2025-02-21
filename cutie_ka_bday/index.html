@@ -27,7 +27,7 @@
 
         h1 {
             font-size: 3rem;
-            margin: 25px 0 0 0;
+            margin: 23px 0 0 0;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
             color: #eb17eb;
         }
@@ -41,7 +41,7 @@
 
         .button {
             display: inline-block;
-            margin-top: 5px;
+            margin-top: 2px;
             padding: 10px 20px;
             font-size: 1rem;
             color: #fff;
@@ -133,6 +133,9 @@
                 "Shadi karlo ab 😗😚"
             ];
             alert(messages[Math.floor(Math.random() * messages.length)]);
+            // Play background music
+            const audio = new Audio('audio/music.mp3');
+            audio.play();
         }
     </script>
 

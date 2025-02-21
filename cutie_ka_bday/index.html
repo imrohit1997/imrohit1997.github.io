@@ -27,14 +27,14 @@
 
         h1 {
             font-size: 3rem;
-            margin: 20px 0 0 0;
+            margin: 25px 0 0 0;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
             color: #eb17eb;
         }
 
         p {
             font-size: 1.5rem;
-            margin: 20px 0 1rem 0;
+            margin: 10px 0 1rem 0;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
             color: #1629d3;
         }
@@ -104,7 +104,8 @@
     <div class="container">
         
         <h1>Happy Birthday!</h1>
-        <p>Wishing you all the joy, happiness, and success on your special day!</p>
+        <p>Wishing you all the joy, happiness, and success 
+            on your special day!</p>
         <button class="button" onclick="generateMessage()">Click for a Surprise</button>
     </div>
     <div class="confetti"></div>
@@ -115,7 +116,7 @@
         for (let i = 0; i < 50; i++) {
             const confetti = document.createElement('div');
             confetti.style.left = Math.random() * 100 + 'vw';
-            confetti.style.animationDelay = Math.random() * 2 + 's';
+            confetti.style.animationDelay = Math.random() * 1 + 's';
             confetti.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 75%)`;
             confettiContainer.appendChild(confetti);
         }
@@ -124,12 +125,11 @@
         function generateMessage() {
             const messages = [
                 "You are amazing!", 
-                "Here's to another fantastic year!", 
                 "Celebrate in style!", 
                 "You're the star today!", 
                 "Keep shining brightly!",
                 "Nudes kab bhejogi! 😋",
-                "Love you 😘😘"
+                "Love you cutie pie😘😘"
             ];
             alert(messages[Math.floor(Math.random() * messages.length)]);
             // Play background music

@@ -134,18 +134,23 @@
                 "Shadi karlo ab 😗😚"
             ];
             alert(messages[Math.floor(Math.random() * messages.length)]);
-            // Play background music
-            backgroundAudio.pause();
-            backgroundAudio.currentTime = 0;
-            const audio = new Audio('audio/music.mp3');
-            audio.play();
+            
         }
     </script>
 
     <!-- Background music -->
-    <audio autoplay loop>
+    <audio id="backgroundAudio" autoplay loop>
         <source src="audio/music.mp3" type="audio/mp3">
         Your browser does not support the audio element.
     </audio>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const backgroundAudio = document.getElementById('backgroundAudio');
+            backgroundAudio.play().catch(error => {
+                console.log('Autoplay was prevented:', error);
+            });
+        });
+    </script>
 </body>
 </html>
